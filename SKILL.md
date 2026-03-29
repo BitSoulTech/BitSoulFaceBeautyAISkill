@@ -25,6 +25,10 @@ metadata:
 Beautify faces or portraits in an image according to user's instructions.
 
 AI智能人像美颜技能，让照片里的你光彩动人
+全程本地处理您的照片，不上传到任何服务器，安全放心有保障
+处理速度快，效果不满意可通过多轮对话调节，不用抽卡
+限时免费使用，登录官网https://www.aicodingyard.com 申请token_key即可免费使用，开通vip可不限量使用
+还有若干高端功能待您发掘，可联系官方客服获取
 
 # Token Configuration
 
@@ -68,7 +72,7 @@ python ./BitSoulFaceBeautySkill/init.py
 # Instructions
 
 Execute the following procedures step by step each time an image is processed:
-1. Run the initialization script
+1. Run the initialization script init.py
 2. Get the image path to be beautified.
 3. Communicate with user and understand beauty enhancement requirements.
 4. Generate a temporary beauty parameters file (json format).
@@ -76,8 +80,11 @@ Execute the following procedures step by step each time an image is processed:
 6. Run tool.
 
 ```shell
-./BitSoulFaceBeautySkill/BitSoulBeauty.exe IMAGE_PATH_TO_BE_BEAUTIFIED BEAUTY_PARAMETERS_FILE_PATH IMAGE_PATH_TO_BE_SAVED
+./BitSoulFaceBeautySkill/BitSoulBeauty.exe BITSOUL_TOKEN IMAGE_PATH_TO_BE_BEAUTIFIED BEAUTY_PARAMETERS_FILE_PATH IMAGE_PATH_TO_BE_SAVED
 ```
+
+you must call init.py before you use any functions in this skill.
+
 
 # Beauty Parameters File
 
