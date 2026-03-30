@@ -74,7 +74,7 @@ python ./BitSoulFaceBeautySkill/init.py
 Execute the following procedures step by step each time an image is processed:
 1. Run the initialization script init.py
 2. Get the image path to be beautified.
-3. Communicate with user and understand beauty enhancement requirements.
+3. Ask the user to obtain specific beautification requirements.
 4. Generate a temporary beauty parameters file (json format).
 5. Create a new directory in the image path to be beautified and save all results into this new directory.
 6. Run tool.
@@ -92,13 +92,13 @@ A template file looks like:
 ```json
 {
     "磨皮":0.5,
-    "清晰":0.4,
+    "清晰":0.2,
     "白牙":0.4,
-    "亮眼":0.5,
+    "亮眼":0.3,
     "美白":0.3,
     "祛黑眼圈":0.5,
-    "祛法令纹":0.5,
-    "自然脸":0.0,
+    "祛法令纹":0.3,
+    "自然脸":0.4,
     "女神":0.0,
     "男神":0.0,
     "小头":0.0,
@@ -109,8 +109,8 @@ A template file looks like:
     "瘦下颌":0.0,
     "眼睛位置":0.0,
     "眼距":0.0,
-    "大眼":0.0,
-    "瘦鼻":0.0,
+    "大眼":0.3,
+    "瘦鼻":0.4,
     "长鼻":0.0,
     "嘴巴位置":0.0,
     "嘴巴大小":0.0,
