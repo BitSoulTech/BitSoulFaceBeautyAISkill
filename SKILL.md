@@ -109,7 +109,9 @@ There are three recommended parameters files.
     "瘦手臂":0.0,
     "瘦身":0.0,
     "发际线":0.0,
-    "双眼皮":0.0
+    "双眼皮":0.0,
+    "默认妆容":0.5,
+    "默认妆容_lut":0.5
 }
 ```
 2.精致
@@ -147,7 +149,9 @@ There are three recommended parameters files.
     "瘦手臂":0.0,
     "瘦身":0.0,
     "发际线":0.2,
-    "双眼皮":0.0
+    "双眼皮":0.0,
+    "女神妆":0.7,
+    "女神妆_lut":0.7
 }
 ```
 3.减龄
@@ -185,7 +189,9 @@ There are three recommended parameters files.
     "瘦手臂":0.0,
     "瘦身":0.0,
     "发际线":0.3,
-    "双眼皮":0.0
+    "双眼皮":0.0,
+    "伪素颜":0.7,
+    "伪素颜_lut":0.6
 }
 ```
 
